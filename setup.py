@@ -237,6 +237,23 @@ setup_kwargs = dict(
             'numpy',  # Needed by autodoc for pynumero
             'scipy',  # Needed by autodoc for pynumero
         ],
+        'network': [
+            'networkx',
+        ],
+        'units': [
+            'pint',
+        ],
+        'differentiation': [
+            'sympy',
+        ],
+        'incidence_analysis': [
+            'networkx',
+            'plotly',
+        ],
+        'dataportals': [
+            'openpyxl',
+            'xlrd',
+        ],        
         'optional': [
             'dill',  # No direct use, but improves lambda pickle
             'ipython',  # contrib.viewer
